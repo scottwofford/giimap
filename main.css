@@ -1,0 +1,186 @@
+* {
+	outline: 1px solid black; /* Thinkful reccomendation temporarily to see outlines*/
+}
+
+#top-nav-bar
+{
+background-color:#ffffff; /*white*/
+padding-right:20px;
+padding: 3px;
+text-align:right;
+border-bottom:2px #111111 solid; /*black*/
+}
+
+.each-top-link
+{
+display:inline-block;
+margin:10px;
+font-size: 16px;
+border:20px;
+font-family: 'Lato', sans-serif;
+color:#111111; /*black*/
+vertical-align: middle;
+}
+
+.giimap-logo {
+width:75px; /*can't get this to work*/
+}
+
+.text-header-links
+{
+
+}
+
+#signin {
+	background-color:#0074d9; /*blue*/
+	padding:7px;
+	color:#ffffff; /*white*/
+	border-radius:3px;
+}
+
+:link {
+	color:#111111; /*black*/
+	text-decoration:none;
+}
+
+a.each-top-link:hover 
+	{color:#0074d9; /*blue*/}
+
+body {
+	background-color:#aaaaaa; /*gray*/
+}
+
+.front-picture {
+	display:inline-block;
+	margin-top: 150px;
+	margin-left:12%;
+	border-radius: 3px;
+	border:3px #111111 solid; /*black*/
+	width:350px; 
+	/*USE DEVELOPER TOOLS
+	CROSSING OUT MEANS SOMEWHERE ELSE IN THE PAGE
+	SOMETHING IS CHANGED.  THERE'S ANOTHER RULE
+	IF IT'S CROSSED OUT WITH A YELLOW TRIANGLE
+	THAT MEANS WE DIDN'T UNDERSTAND
+	IF IT'S GREYED OUT, IT THINKS THAT IT MIGHT 
+	SHOW UP LATER IN THE PAGE*/
+}
+
+.landing-page-text { 
+	display:inline-block;
+	/*can't figure out how to eliminate top space
+	tried: 
+	margin-top: 150px;
+	position:relative; 
+	margin-bottom:100px;
+	VERTICAL ALIGN
+	ISNTEAD OF MARGIN, 
+	DO PADDING ON THE BOTTOM
+	REMOVE PICTURE
+	CHECK OUT COMPUTED STYLE OF NAV
+	LET US ADD A BOTTOM MARGIN THERE
+	GO BACK TO LANDING PAGE, TURN ON VERTICAL ALIGN, 
+	CYCLE THRU OPTIONS: 
+	HEIGHT OF 350PX
+	AND TRY A 
+	OK THAT DOESN'T WORK. 
+	EVERYTHING THAT'S INSIDE OF THIS DIV, 
+	PUT ANOTHER DIV INSIDE OF THAT
+	WITH THAT, WE SHOULD BE ABLE TO ADD THE PADDING 
+	HAVE IT NOT AFFECT ADDING THE IMAGE AROUND 
+	*/
+	margin-left:50px;
+}
+
+.headline {
+padding-bottom:18px;
+font-size:60px;
+font-family: 'Lato', sans-serif; /*change font*/
+color:#111111; /*black*/
+/*font-variant:small-caps;*/ /*first letters too big, any way to this? */
+text-transform: uppercase;
+}
+
+.subhead {
+padding-bottom: 18px;
+font-size:19px;
+font-family: 'Lato', sans-serif;
+color:black;
+}
+
+.learn-more {
+	margin-left: 20px;
+	background-color:#f4f4f4;
+	padding:10px;
+	color:#444444;
+	font-size:19px;
+	font-family: 'Droid Sans', sans-serif;
+	display:inline-block;
+	border-radius: 3px;
+	border:1px black solid;
+	font-weight:bolder;
+	text-align:center;
+	color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS RESET BELOW http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126  License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
