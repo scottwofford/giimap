@@ -1,5 +1,5 @@
 * {
-	outline: 1px solid black; /* Thinkful reccomendation temporarily to see outlines*/
+	/*outline: 1px solid black;*/ /* Thinkful reccomendation temporarily to see outlines*/
 }
 
 #top-nav-bar
@@ -28,7 +28,7 @@ width:75px; /*can't get this to work*/
 
 .text-header-links
 {
-
+font-weight:bold;
 }
 
 #signin {
@@ -55,41 +55,17 @@ body {
 	margin-top: 150px;
 	margin-left:12%;
 	border-radius: 3px;
-	border:3px #111111 solid; /*black*/
 	width:350px; 
-	/*USE DEVELOPER TOOLS
-	CROSSING OUT MEANS SOMEWHERE ELSE IN THE PAGE
-	SOMETHING IS CHANGED.  THERE'S ANOTHER RULE
-	IF IT'S CROSSED OUT WITH A YELLOW TRIANGLE
-	THAT MEANS WE DIDN'T UNDERSTAND
-	IF IT'S GREYED OUT, IT THINKS THAT IT MIGHT 
-	SHOW UP LATER IN THE PAGE*/
 }
+
+/*.landing-page-text-dup {
+	display:inline-block;
+}*/
 
 .landing-page-text { 
 	display:inline-block;
-	/*can't figure out how to eliminate top space
-	tried: 
-	margin-top: 150px;
-	position:relative; 
-	margin-bottom:100px;
-	VERTICAL ALIGN
-	ISNTEAD OF MARGIN, 
-	DO PADDING ON THE BOTTOM
-	REMOVE PICTURE
-	CHECK OUT COMPUTED STYLE OF NAV
-	LET US ADD A BOTTOM MARGIN THERE
-	GO BACK TO LANDING PAGE, TURN ON VERTICAL ALIGN, 
-	CYCLE THRU OPTIONS: 
-	HEIGHT OF 350PX
-	AND TRY A 
-	OK THAT DOESN'T WORK. 
-	EVERYTHING THAT'S INSIDE OF THIS DIV, 
-	PUT ANOTHER DIV INSIDE OF THAT
-	WITH THAT, WE SHOULD BE ABLE TO ADD THE PADDING 
-	HAVE IT NOT AFFECT ADDING THE IMAGE AROUND 
-	*/
 	margin-left:50px;
+	padding-top: 10px;
 }
 
 .headline {
@@ -97,7 +73,6 @@ padding-bottom:18px;
 font-size:60px;
 font-family: 'Lato', sans-serif; /*change font*/
 color:#111111; /*black*/
-/*font-variant:small-caps;*/ /*first letters too big, any way to this? */
 text-transform: uppercase;
 }
 
@@ -112,19 +87,22 @@ color:black;
 	margin-left: 20px;
 	background-color:#f4f4f4;
 	padding:10px;
-	color:#444444;
-	font-size:19px;
+	color:#111111;
+	font-size:27px;
 	font-family: 'Droid Sans', sans-serif;
 	display:inline-block;
 	border-radius: 3px;
-	border:1px black solid;
+	border:2px #111111 solid;
 	font-weight:bolder;
 	text-align:center;
-	color:black;
 }
 
-
-
+/*.empty-space {
+	display:inline-block;
+	margin-left: 20px;
+	margin-top:50px;
+}
+*/
 
 
 
