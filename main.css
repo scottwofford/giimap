@@ -9,6 +9,7 @@ padding-right:20px;
 padding: 3px;
 text-align:right;
 border-bottom:2px #111111 solid; /*black*/
+margin-bottom:150px;
 }
 
 .each-top-link
@@ -52,20 +53,14 @@ body {
 
 .front-picture {
 	display:inline-block;
-	margin-top: 150px;
 	margin-left:12%;
-	border-radius: 3px;
-	width:350px; 
 }
-
-/*.landing-page-text-dup {
-	display:inline-block;
-}*/
 
 .landing-page-text { 
 	display:inline-block;
 	margin-left:50px;
-	padding-top: 10px;
+	height:350px;
+	vertical-align: top;
 }
 
 .headline {
@@ -74,6 +69,7 @@ font-size:60px;
 font-family: 'Lato', sans-serif; /*change font*/
 color:#111111; /*black*/
 text-transform: uppercase;
+margin-top:47px;
 }
 
 .subhead {
@@ -88,7 +84,7 @@ color:black;
 	background-color:#f4f4f4;
 	padding:10px;
 	color:#111111;
-	font-size:27px;
+	font-size:22px;
 	font-family: 'Droid Sans', sans-serif;
 	display:inline-block;
 	border-radius: 3px;
@@ -96,13 +92,6 @@ color:black;
 	font-weight:bolder;
 	text-align:center;
 }
-
-/*.empty-space {
-	display:inline-block;
-	margin-left: 20px;
-	margin-top:50px;
-}
-*/
 
 
 
